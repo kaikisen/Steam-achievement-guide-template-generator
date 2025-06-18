@@ -26,6 +26,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3502332697
 
 本项目完全允许二传二改，如果你对python、steam格式和html样式有一定了解，也可以尝试一下制作成更贴你心意、更适合你自己风格的脚本。
 
+
+
 **使用**
 
 0.安装requirement.txt中的库；
@@ -37,8 +39,11 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3502332697
 3.打开edge浏览器，登录steam并打开你刚刚新建的指南链接，确保你能够在edge上访问这个界面；
 
 4.编辑GuideGenerate.py：
-将【file_path = r'此处替换achievements.csv的文件路径' 】一行中的路径改为刚刚生成的achievements.csv的文件路径
-将【user_data_dir = r"C:\Users\{你的用户名}\AppData\Local\Microsoft\Edge\User Data"】一行中的值改为你的edge用户数据文件夹（用于带有缓存状态打开浏览器），这个值只需要在首次使用时编辑一次
-将【driver.get("你的指南链接")】中的值替换为你刚刚创建的指南链接，其末端应该以“manageguide/?id=xxxxxxxxxx”结尾。
+
+* 将【file_path = r'此处替换achievements.csv的文件路径' 】一行中的路径改为刚刚生成的achievements.csv的文件路径
+
+- 将【user_data_dir = r"C:\Users\{你的用户名}\AppData\Local\Microsoft\Edge\User Data"】一行中的值改为你的edge用户数据文件夹（用于带有缓存状态打开浏览器），这个值只需要在首次使用时编辑一次
+
+* 将【driver.get("你的指南链接")】中的值替换为你刚刚创建的指南链接，其末端应该以“manageguide/?id=xxxxxxxxxx”结尾。
 
 5.关闭并退出所有的edge界面、关闭并退出所有的edge界面、关闭并退出所有的edge界面，并运行GuideGenerate.py——如果一切顺利，你应该可以看到成就条目在以惊人的速度自动生成了。
