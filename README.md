@@ -1,6 +1,6 @@
 # Steam-achievement-guide-template-generator
 
-**这个玩意儿到底是干嘛的**
+## 这个玩意儿到底是干嘛的
 
 这个屎山可以追溯到大半年前Death of the Reprobate的时候心血来潮想写成就指南，但是又想着一条条创建条目、导入图片、编辑成就名和说明实在是好——麻烦！于是就想着一劳永逸整一个自动化工具解决这个问题。
 
@@ -28,7 +28,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3502332697
 
 
 
-**使用**
+## 使用
 
 0.安装requirement.txt中的库；
 
@@ -46,4 +46,4 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3502332697
 
 * 将【driver.get("你的指南链接")】中的值替换为你刚刚创建的指南链接，其末端应该以“manageguide/?id=xxxxxxxxxx”结尾。
 
-5.关闭并退出所有的edge界面、关闭并退出所有的edge界面、关闭并退出所有的edge界面，并运行GuideGenerate.py——如果一切顺利，你应该可以看到成就条目在以惊人的速度自动生成了。
+5.**关闭并退出所有的edge界面**、**关闭并退出所有的edge界面**、**关闭并退出所有的edge界面**，并运行GuideGenerate.py——如果一切顺利，你应该可以看到成就条目在以惊人的速度自动生成了。
