@@ -1,9 +1,6 @@
-beautifulsoup4==4.12.0
 beautifulsoup4==4.11.1
 pandas==1.5.3
-Pillow==9.5.0
 Pillow==9.4.0
-Pillow==11.2.1
 Requests==2.32.4
 selenium==4.33.0
 webdriver_manager==4.0.2
