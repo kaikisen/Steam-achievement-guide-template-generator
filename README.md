@@ -47,5 +47,3 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3502332697
 * 将【driver.get("你的指南链接")】中的值替换为你刚刚创建的指南链接，其末端应该以“manageguide/?id=xxxxxxxxxx”结尾。
 
 5.**关闭并退出所有的edge界面**、**关闭并退出所有的edge界面**、**关闭并退出所有的edge界面**，并运行GuideGenerate.py——如果一切顺利，你应该可以看到成就条目在以惊人的速度自动生成了。
-
-25.07.23更新，新增了steam无法识别的游戏单独添加功能脚本
