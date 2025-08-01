@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.1
+pandas==1.5.3
+Pillow==9.4.0
+Requests==2.32.4
