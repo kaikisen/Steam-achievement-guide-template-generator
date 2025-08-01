@@ -34,7 +34,7 @@ blocks = []
 for _, row in merged_df.iterrows():
     block = (
         f"[previewimg={row['id']};sizeThumb,floatLeft;{row['title']}][/previewimg] "
-        f"[b]{row['Achievement Name']}[/b]\n{row['Description']}\n[hr][/hr]\n"
+        f"[b]{row['Achievement Name']}[/b]\n[i]{row['Description']}[/i]\n[hr][/hr]\n"
     )
     blocks.append(block)
 
